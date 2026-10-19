@@ -1,0 +1,59 @@
+.recherche {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 24px 80px;
+    text-align: center;
+    min-height: 60vh;
+}
+
+.recherche h1 {
+    font-size: 28px;
+    color: #0d1b3e;
+    margin-bottom: 8px;
+}
+
+.recherche-section {
+    margin-top: 40px;
+}
+
+.recherche-section h2 {
+    text-align: left;
+    font-size: 20px;
+    color: #0d1b3e;
+    margin-bottom: 18px;
+}
+
+.services-resultats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.service-resultat {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: white;
+    border: 1px solid #eef0f8;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.service-resultat h3 {
+    font-size: 16px;
+    color: #0d1b3e;
+    margin: 0 0 6px;
+}
+
+.service-resultat p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 14px;
+}
+
+.service-resultat .product-link {
+    margin-top: auto;
+    align-self: flex-start;
+}

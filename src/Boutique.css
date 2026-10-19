@@ -1,0 +1,139 @@
+.boutique {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.boutique h1 {
+    font-size: 30px;
+    color: #0d1b3e;
+    margin-bottom: 8px;
+}
+
+.boutique-subtitle {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #eef0f8;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+}
+
+.product-image-placeholder {
+    width: 100%;
+    height: 140px;
+    background: #eef1fb;
+    border-radius: 8px;
+    margin-bottom: 14px;
+}
+
+.product-card h3 {
+    font-size: 15px;
+    color: #0d1b3e;
+    margin-bottom: 4px;
+}
+
+.product-category {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 8px;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #1a3fa0;
+    margin-bottom: 12px;
+}
+
+.product-card button {
+    background: #1a3fa0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.product-card button:hover {
+    background: #0d1b3e;
+}
+
+.boutique {
+    min-height: 60vh;
+}
+
+.boutique-message {
+    color: #666;
+    margin: 30px 0;
+}
+
+.product-image {
+    width: 100%;
+    height: 140px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 14px;
+}
+
+.product-link {
+    display: inline-block;
+    background: #1a3fa0;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.product-link:hover {
+    background: #0d1b3e;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card h3 {
+    line-height: 1.4;
+    min-height: 2.8em;
+}
+
+.product-card .product-link {
+    margin-top: auto;
+    align-self: center;
+}
+
+.product-problems {
+    max-width: 600px;
+    margin: 24px auto;
+    text-align: left;
+}
+
+.product-problems h2 {
+    font-size: 18px;
+    color: #0d1b3e;
+    margin-bottom: 10px;
+}
+
+.product-problems li {
+    margin-bottom: 8px;
+    color: #444;
+}
